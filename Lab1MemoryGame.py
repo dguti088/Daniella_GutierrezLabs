@@ -34,6 +34,7 @@ class MemoryGame
 
 #user makes error 
     self.loseGame()
+      print("You Lose!")
     self.play_all_colors(200) 
     self.waitStart
       
