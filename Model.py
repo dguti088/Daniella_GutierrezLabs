@@ -82,7 +82,7 @@ class Model:
         self._curState = -1
         self._handler = handler
         self._debug = debug
-        self._buttons = []
+        self._buttons = [2]
         self._timer = None
 
     def addTransition(self, fromState, events, toState):
